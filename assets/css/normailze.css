@@ -1,0 +1,12 @@
+body{
+    color: red !important;
+}
+
+/* 进入激活，离开激活 */
+.page-enter-active,.page-leave-active{
+    transition: opacity 2s;
+} 
+
+.page-enter .page-leave-active{
+    opacity: 0;
+}
